@@ -27,3 +27,21 @@ a {
     text-decoration: none;
     color: white;
 }
+.box {
+    width: 300px;
+    height: 120px;
+    background: #599fe5;
+    border: 2px solid white;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    margin: 5px auto;
+}
+
+.box h2 {
+    font-weight: 900;
+}
+.box h3 {
+    font-weight: 600;
+}
