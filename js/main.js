@@ -24,12 +24,14 @@ function createTweet(input) {
     getQuote();
     } else {
     var tweet = tweetLink + encodeURIComponent(tweetText);
+    }
     $('.quote').text(quoteText);
     $('.author').text("Author: " + quoteAuthor);
     $('.tweet').attr('href', tweet);
-}
-    
-}
+
+};
+
+
 
 $(document).ready(function() {
     getQuote();
@@ -37,4 +39,3 @@ $(document).ready(function() {
         getQuote();
     })
 });
-
